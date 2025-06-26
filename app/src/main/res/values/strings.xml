@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UI Text Library</string>
+    <string name="title_activity_demo">DemoActivity</string>
+</resources>

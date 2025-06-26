@@ -1,0 +1,116 @@
+*.iml
+.gradle
+.gradle/
+/local.properties
+local.properties
+
+.idea/*
+!.idea/.name
+!.idea/.gitignore
+
+#.idea/shelf/
+#.idea/shelf
+#.idea/caches
+#.idea/compiler.xml
+#.idea/gradle.xml
+#.idea/libraries
+#.idea/libraries/
+#.idea/modules.xml
+#.idea/navEditor.xml
+#.idea/runConfigurations/
+#.idea/runConfigurations.xml
+#/.idea/vcs.xml
+#.idea/vcs.xml
+#.idea/workspace.xml
+#.idea/*.kts
+#.idea/jarRepositories.xml
+#.idea/studiobot.xml
+#.idea/assetWizardSettings.xml
+#.idea/migrations.xml
+#.idea/misc.xml
+#.idea/render.experimental.xml
+#.idea/deploymentTargetDropDown.xml
+#.idea/appInsightsSettings.xml
+#.idea/sonarlint/
+#.idea/analytics.settings
+#.idea/inspectionProfiles/Project_Default.xml
+#.idea/deviceManager.xml
+#.idea/AndroidProjectSystem.xml
+#.idea/deploymentTargetSelector.xml
+
+# Kotlin/Java
+*.kotlin_module
+*.class
+*.dex
+
+# Firebase и Google Services
+google-services.json
+google-services.xml
+firebase-*.json
+
+# KSP (Kotlin Symbol Processing)
+**/build/generated/ksp/
+
+# Jetpack Compose
+**/build/generated/source/kaptKotlin/
+**/build/tmp/kapt3/stubs/
+
+.lint/
+**/lint-results/
+**/lint-reports/
+
+# Env
+.env
+.secrets/
+
+
+**/outputs/mapping/
+**/outputs/logs/
+**/outputs/reports/
+
+# Build files
+/build
+/build/
+*.apk
+*.aab
+*.ap_
+*.aar
+*.jar
+
+# Captures from Android Studio
+/captures/
+/captures
+
+# Profiler and test reports
+*.hprof
+*.binarymd
+/reports/
+/test-results/
+/TEST-*.xml
+/coverage-reports/
+
+# Keystore files (NEVER commit your keystore or its passwords)
+*.jks
+*.keystore
+
+# NDK / CMake generated files
+.cxx
+.cxx/
+.externalNativeBuild
+.externalNativeBuild/
+**/CMakeLists.txt.user
+**/CMakeLists.txt.user.*
+**/ExternalProjectInfo.txt
+**/externalToolchain.cmake
+**/compile_commands.json
+
+# Log files
+*.log
+
+# Temp files
+*~
+*.swp
+*.bak
+
+# macOS specific
+.DS_Store
