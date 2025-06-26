@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.github.reyst.uitext.demo"
-    compileSdk = 36
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.github.reyst.uitext"
         minSdk = 21
-        targetSdk = 36
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 

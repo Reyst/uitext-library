@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.github.reyst.uitext"
-    compileSdk = 36
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 21
